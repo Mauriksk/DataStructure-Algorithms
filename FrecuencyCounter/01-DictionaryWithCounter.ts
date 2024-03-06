@@ -22,9 +22,11 @@ const same: SameType = (x, y) => {
   }
 
   for (let key in counterX) {
+    //Fisrt checks the existence of the key cuadratic value
     if (!((+key) ** 2 in counterY)) {
       return false;
     }
+    //And here it chekcs the value of them
     if(counterY[(+key) ** 2] !== counterX[key]){
       false
     }
