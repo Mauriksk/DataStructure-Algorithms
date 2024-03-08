@@ -13,8 +13,8 @@ const sumNumberNaiveSolution: SumType = (array) => {
   }
 };
 
-//* Best solution 
-const sumZero = (array) => {
+//* Best solution
+const sumZero: SumType = (array) => {
   let left = 0;
   let right = array.length - 1;
 
@@ -30,3 +30,4 @@ const sumZero = (array) => {
     }
   }
 };
+
