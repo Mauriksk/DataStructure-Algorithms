@@ -31,6 +31,9 @@ const same: SameType = (x, y) => {
       false
     }
   }
-
   return true;
 };
+
+
+console.log(same([1,3,5,2, 1],[4, 1, 25, 9, 1]))
+console.log(same([1,3,5,2],[4, 1, 25, 9, 50]))
