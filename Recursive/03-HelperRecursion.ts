@@ -1,7 +1,7 @@
 const collectOddValues = (arr: number[]): number[] => {
     let result: number[] = []
 
-    const helper = (helperInput) => {
+    const helper = (helperInput: number[]) => {
         if(helperInput.length === 0){
             return
         }
